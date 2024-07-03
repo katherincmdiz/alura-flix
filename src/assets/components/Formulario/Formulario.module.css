@@ -51,7 +51,7 @@
 .formulario input,
 .formulario textarea,
 .formulario select {
-    width: 680px;
+    width: 630px;
     padding: 15px;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -120,9 +120,6 @@
 .error {
     color: red;
 }
-
-
-
 @media (max-width: 768px) {
     .formulario {
         width: 100%;
