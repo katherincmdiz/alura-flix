@@ -1,0 +1,51 @@
+.videoCard {
+  width: 445px;
+  overflow: hidden;
+  border: 8px solid;
+  border-radius: 15px;
+  box-shadow: 0px 5px 5px;
+  background-color: black;
+  flex-shrink: 0; /* Evita que el elemento se estire por encima de otros elementos */
+}
+
+.videoCard:hover {
+  transform: scale(0.98);
+  transition: 0.5s;
+  
+}
+
+.imagen {
+  width: 100%;
+  object-fit: cover;
+  flex-grow: 1;
+}
+
+.textContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  height:  40px;
+  padding: 5px;
+}
+
+.iconSection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+span {
+  color : var(--blanco)
+}
+.iconoBorrar, .iconoEditar {
+  cursor: pointer;
+}
+.iconoBorrar:hover, .iconoEditar:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 480px) {
+  .videoCard {
+    width: 360px;
+  }
+}
