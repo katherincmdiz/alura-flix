@@ -27,5 +27,5 @@ ALURAFLIX es una aplicación web para gestionar videos, donde puedes crear, edit
 - styles: Estilos globales y módulos CSS.
 - utils: Utilidades y funciones auxiliares.
 
-
+![![2024-07-03](https://github.com/katherincmdiz/alura-flix/assets/156930985/a151c159-77a2-4f39-ad20-d035836fe0c4)]
 ## Gracias 
